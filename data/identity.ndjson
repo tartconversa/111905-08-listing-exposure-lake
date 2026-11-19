@@ -1,0 +1,3 @@
+{"candidates": ["H1"], "channel": "A", "listing_id": "L1", "proof_id": "ID1", "received": "2026-11-02", "reuse_epoch": "r1", "supersedes": null, "valid_from": "2026-10-01", "valid_to": null}
+{"candidates": ["H1"], "channel": "B", "listing_id": "L9", "proof_id": "ID2", "received": "2026-11-02", "reuse_epoch": "r7", "supersedes": null, "valid_from": "2026-10-01", "valid_to": null}
+{"candidates": ["H2", "H3"], "channel": "B", "listing_id": "L9", "proof_id": "ID3", "received": "2026-11-10", "reuse_epoch": "r7", "supersedes": "ID2", "valid_from": "2026-11-01", "valid_to": null}

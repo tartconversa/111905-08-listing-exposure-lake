@@ -1,0 +1,2 @@
+{"effective": "2026-11-03T12:00:00+08:00", "house_id": "H1", "kind": "signed", "received": "2026-11-04T08:00:00+08:00", "reference": null, "transaction_id": "SALE1"}
+{"effective": "2026-11-05T00:00:00+08:00", "house_id": "H1", "kind": "cancelled", "received": "2026-11-06T08:00:00+08:00", "reference": "SALE1", "transaction_id": "CANCEL1"}

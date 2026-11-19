@@ -1,0 +1,74 @@
+{
+  "format": "UTF-8 NDJSON",
+  "datasets": {
+    "exports": {
+      "description": "清单范围声明",
+      "fields": {
+        "channel": "string",
+        "region": "string",
+        "batch": "string",
+        "expected_pages": "array",
+        "complete": "boolean",
+        "observed_at": "string"
+      }
+    },
+    "page_receipts": {
+      "description": "页面交付覆盖",
+      "fields": {
+        "channel": "string",
+        "batch": "string",
+        "page": "integer",
+        "received": "string"
+      }
+    },
+    "observations": {
+      "description": "原始广告观察与补丁",
+      "fields": {
+        "record_id": "string",
+        "channel": "string",
+        "listing_id": "string",
+        "reuse_epoch": "string",
+        "batch": "string",
+        "page": "integer",
+        "kind": "string",
+        "observed_at": "string",
+        "fields": "object"
+      }
+    },
+    "clock_adjustments": {
+      "description": "来源时钟校正",
+      "fields": {
+        "adjustment_id": "string",
+        "channel": "string",
+        "batches": "array",
+        "offset_seconds": "integer",
+        "received": "string"
+      }
+    },
+    "identity": {
+      "description": "房屋关联凭证",
+      "fields": {
+        "proof_id": "string",
+        "channel": "string",
+        "listing_id": "string",
+        "reuse_epoch": "string",
+        "candidates": "array",
+        "valid_from": "string",
+        "valid_to": "any",
+        "received": "string",
+        "supersedes": "any"
+      }
+    },
+    "transactions": {
+      "description": "成交及交易限制",
+      "fields": {
+        "transaction_id": "string",
+        "house_id": "string",
+        "kind": "string",
+        "effective": "string",
+        "received": "string",
+        "reference": "any"
+      }
+    }
+  }
+}

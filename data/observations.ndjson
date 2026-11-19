@@ -1,0 +1,3 @@
+{"batch": "a1", "channel": "A", "fields": {"active": true, "house_code": "X1", "price_cents": 180000000}, "kind": "full", "listing_id": "L1", "observed_at": "2026-11-01T23:30:00+08:00", "page": 1, "record_id": "O1", "reuse_epoch": "r1"}
+{"batch": "b1", "channel": "B", "fields": {"active": true, "house_code": "Y1", "price_cents": 178000000}, "kind": "full", "listing_id": "L9", "observed_at": "2026-11-02T18:00:00+08:00", "page": 1, "record_id": "O2", "reuse_epoch": "r7"}
+{"batch": "a2", "channel": "A", "fields": {"description": null}, "kind": "patch", "listing_id": "L1", "observed_at": "2026-11-02T23:30:00+08:00", "page": 1, "record_id": "O3", "reuse_epoch": "r1"}

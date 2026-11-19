@@ -1,0 +1,5 @@
+{"batch": "a1", "channel": "A", "page": 1, "received": "2026-11-02T01:00:00+08:00"}
+{"batch": "a1", "channel": "A", "page": 2, "received": "2026-11-02T01:01:00+08:00"}
+{"batch": "a2", "channel": "A", "page": 1, "received": "2026-11-03T01:00:00+08:00"}
+{"batch": "b1", "channel": "B", "page": 1, "received": "2026-11-02T19:00:00+08:00"}
+{"batch": "a2", "channel": "A", "page": 2, "received": "2026-11-07T10:00:00+08:00"}

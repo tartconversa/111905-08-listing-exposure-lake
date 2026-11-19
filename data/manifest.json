@@ -1,0 +1,41 @@
+{
+  "description": "本地合成资料；不含真实个人或机构数据。",
+  "files": [
+    {
+      "path": "exports.ndjson",
+      "dataset": "exports",
+      "rows": 3,
+      "sha256": "69b01ac53d062c9ac9392118e7ab7ea19fbf4096e3dee2e45dd6302a3a5b1929"
+    },
+    {
+      "path": "page_receipts.ndjson",
+      "dataset": "page_receipts",
+      "rows": 5,
+      "sha256": "47b0e2797e85e69ee1b6acbe6c3731e3680a78b9fa0218f38d63482d82f01eed"
+    },
+    {
+      "path": "observations.ndjson",
+      "dataset": "observations",
+      "rows": 3,
+      "sha256": "98a10f23ae004f621d25d473ba4e88bf66b1453d5b74892f4173128e4eedd159"
+    },
+    {
+      "path": "clock_adjustments.ndjson",
+      "dataset": "clock_adjustments",
+      "rows": 1,
+      "sha256": "fd4fbdf25f5a71f7ab10e3eb84550b9b6357ab6a8931b8c793b945131d02a431"
+    },
+    {
+      "path": "identity.ndjson",
+      "dataset": "identity",
+      "rows": 3,
+      "sha256": "2a5f332fc3051a9c68ed49496bb17a4d1ddc589dce8ecdf009ca79ab5074a82d"
+    },
+    {
+      "path": "transactions.ndjson",
+      "dataset": "transactions",
+      "rows": 2,
+      "sha256": "b3a50c6aa29fe697006120ae166a1494e7469b79be1c288afc2313c754d3197f"
+    }
+  ]
+}
